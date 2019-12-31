@@ -10,7 +10,7 @@
     internal static class AudioFixer
     {
         internal static void ChangeDisableUnityAudio(string path, bool newValue, QModGame game)
-        {
+        {/*
             if (game != QModGame.Subnautica && game != QModGame.BelowZero)
                 throw new ArgumentException("Neither Subnautica nor Below Zero detected!");
             AssetsManager am = new AssetsManager();
@@ -38,7 +38,7 @@
                 afi.file.Write(writer, 0, rep.ToArray(), 0);
                 afi.stream.Close();
                 File.WriteAllBytes(path, memStream.ToArray());
-            }
+            }*/
         }
     }
 }
