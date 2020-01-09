@@ -1,4 +1,4 @@
-﻿namespace QModManager
+﻿namespace QModManager.Executable
 {
     using System;
     using System.Collections.Generic;

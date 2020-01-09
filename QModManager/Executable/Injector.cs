@@ -1,11 +1,11 @@
-﻿using Mono.Cecil;
-using Mono.Cecil.Cil;
-using System;
-using System.IO;
-using System.Linq;
-
-namespace QModManager
+﻿namespace QModManager.Executable
 {
+    using Mono.Cecil;
+    using Mono.Cecil.Cil;
+    using System;
+    using System.IO;
+    using System.Linq;
+
     internal class Injector
     {
         internal readonly string gameDirectory;

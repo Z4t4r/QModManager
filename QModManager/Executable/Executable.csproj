@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E00B7FE8-0F1D-4AE6-9E47-4BFD81537F14}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>QModManager</RootNamespace>
+    <RootNamespace>QModManager.Executable</RootNamespace>
     <AssemblyName>QModManager</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -20,7 +20,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Build\</OutputPath>
+    <OutputPath>..\..\Build\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -38,7 +38,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>QModManager.Executable</StartupObject>
+    <StartupObject>QModManager.Executable.Executable</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>icon.ico</ApplicationIcon>
@@ -83,13 +83,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AssetsTools.NET">
-      <HintPath>..\Dependencies\AssetsTools.NET.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\Dependencies\AssetsTools.NET.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Dependencies\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\Dependencies\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -111,9 +108,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QModManager\QModManager.csproj">
+    <ProjectReference Include="..\Loader\Loader.csproj">
       <Project>{da63f59d-4676-4726-afec-bd9d3682733f}</Project>
-      <Name>QModManager</Name>
+      <Name>Loader</Name>
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
