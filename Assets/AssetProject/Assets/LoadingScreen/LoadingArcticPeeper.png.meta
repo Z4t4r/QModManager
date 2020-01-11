@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c57c89eb943e9e2488ed857839618fe1
+guid: a7d86e5580470d9428fced21f1ff6333
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,5 +87,5 @@ TextureImporter:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
-  assetBundleName: loadingbar
+  assetBundleName: loadingscreen
   assetBundleVariant: 

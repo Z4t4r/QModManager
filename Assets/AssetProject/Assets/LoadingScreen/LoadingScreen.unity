@@ -320,5 +320,30 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4263876990881571676, guid: 772ae9c2c78bf09428784c4097e16099,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 772ae9c2c78bf09428784c4097e16099, type: 3}
+--- !u!1 &4263876991041608827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4263876991523976971, guid: 772ae9c2c78bf09428784c4097e16099,
+    type: 3}
+  m_PrefabInstance: {fileID: 4263876991041608826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4263876991041608828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4263876991041608827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb30198aa32dd140b5750692dd48104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: dbf089033c0f2f247a280aa37c0920d9, type: 2}
+  radius: 20

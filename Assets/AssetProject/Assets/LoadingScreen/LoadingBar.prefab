@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417, y: -164.8}
+  m_AnchoredPosition: {x: -486, y: -166}
   m_SizeDelta: {x: 76, y: 67.976}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4263876990032951253
@@ -146,12 +146,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 844, y: 472}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -207,8 +207,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -298.09998, y: -152}
-  m_SizeDelta: {x: 457, y: 23.8}
+  m_AnchoredPosition: {x: -298.09998, y: -146}
+  m_SizeDelta: {x: 596.25, y: 19.1}
   m_Pivot: {x: 0.000000034458935, y: 0.5}
 --- !u!222 &4263876990881571667
 CanvasRenderer:
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: dbf089033c0f2f247a280aa37c0920d9, type: 2}
   m_Color: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 0.7490196}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -280,8 +280,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -152}
-  m_SizeDelta: {x: 596.3, y: 23.8}
+  m_AnchoredPosition: {x: 0, y: -145.99998}
+  m_SizeDelta: {x: 596.3, y: 19.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4263876991523976974
 CanvasRenderer:
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: dbf089033c0f2f247a280aa37c0920d9, type: 2}
   m_Color: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0.5372549}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
